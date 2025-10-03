@@ -30,5 +30,6 @@ If the fd is not ready for reading, the loop simply continues.
 <p>
 If the return value of recv is 0, it means the client has closed the connection gracefully.
 If it's -1, an error occurred (e.g., connection reset, interrupted system call). In both cases, the function to remove the client is called.
-<img width="400" height="200" alt="Image" src="https://github.com/user-attachments/assets/070d2f67-e563-4703-8755-0b7d59aba040" />
 </p>
+
+<img width="400" height="200" alt="Image" src="https://github.com/user-attachments/assets/070d2f67-e563-4703-8755-0b7d59aba040" />
